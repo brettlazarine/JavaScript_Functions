@@ -39,7 +39,7 @@ console.log("Exercise 3");
 console.log("**********");
 function whichQuadrant(x = 0, y = 0){
     if (x == 0 && y == 0){
-        console.log("Point is at the center of the Quadrants.");
+        console.log("Point is at the origin.");
     } else if (x == 0 && y != 0){
         console.log("Point is on the Y axis.");
     } else if (x != 0 && y == 0){
