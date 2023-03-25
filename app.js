@@ -40,9 +40,9 @@ console.log("**********");
 function whichQuadrant(x = 0, y = 0){
     if (x == 0 && y == 0){
         console.log("Point is at the center of the Quadrants.");
-    } else if (x == 0 && y > 0){
+    } else if (x == 0 && y != 0){
         console.log("Point is on the Y axis.");
-    } else if (x > 0 && y == 0){
+    } else if (x != 0 && y == 0){
         console.log("Point is on the X axis.");
     } else if (x > 0 && y > 0){
         console.log("Point is in Quadrant 1.");
